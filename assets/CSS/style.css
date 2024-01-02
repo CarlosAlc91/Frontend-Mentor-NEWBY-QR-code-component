@@ -1,0 +1,70 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* variables */
+
+:root {
+  --bg-color: hsl(212, 45%, 89%);
+  --card-color: hsl(0, 0%, 100%);
+  --title-color: hsl(218, 44%, 22%);
+  --text-color: hsl(220, 15%, 55%);
+
+  --text-font: 'Outfit', sans-serif;
+  --font-regular: 700;
+  --font-bold: 700;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  font-family: var(--text-font);
+  background-color: var(--bg-color);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: var(--card-color);
+}
+
+.header__img {
+  border-radius: 20px;
+}
+
+.information {
+  padding: 10px;
+  text-align: center;
+}
+
+.title {
+  font-size: 25px;
+  color: var(--title-color);
+}
+
+.text {
+  font-size: 20px;
+  color: var(--text-color);
+
+}
